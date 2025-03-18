@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 const HeroSection = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
-    '/IMG_0130.JPG'
-    // '/api/placeholder/1600/800',
-    // '/api/placeholder/1600/800'
+    '/IMG_0130.JPG',
+    '/IMG_9984.jpg',
+    '/mainnnn.jpg'
   ];
   
   const headings = [
