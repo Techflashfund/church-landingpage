@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection';
 import WelcomeSection from '../components/WelcomeSection';
 import UpcomingEventsSection from '../components/UpcomingEventsSection';
 import Footer from '../components/Footer';
+import MassIntentionsSection from '@/components/MassIntentionsSection';
 
 const ChurchLandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const ChurchLandingPage = () => {
       <main className="flex-grow">
         <WelcomeSection />
         <UpcomingEventsSection />
+        <MassIntentionsSection/>
       </main>
       <Footer />
     </div>
